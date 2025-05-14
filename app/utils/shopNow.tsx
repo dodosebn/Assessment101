@@ -1,20 +1,22 @@
 import React from 'react'
+import { FaOpencart } from "react-icons/fa6";
 
-const GetBtn = () => {
+const ShopBtn = () => {
   return (
     <button className='
       border-none 
-      bg-green-600 hover:bg-green-600
+      bg-cyan-600 
       text-white font-medium
       px-4 py-2 
       rounded-md
       shadow-md hover:shadow-lg
       transition-all duration-200
-      focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-offset-2
+      focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:ring-offset-2
+      inline-flex
     '>
-     Shop Now
+   <FaOpencart />  Add cart
     </button>
   )
 }
 
-export default GetBtn
+export default ShopBtn;

@@ -13,8 +13,8 @@ const NavBar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const navLinks = [
-    { name: 'Home', href: '/Home', id: 1 },
-    { name: 'Products', href: '/Products', id: 2 },
+    { name: 'Home', href: '/', id: 1},
+    { name: 'Products', href: 'prducts', id: 2},
     { name: 'Affiliates', href: '/Affiliates', id: 3 },
     { name: 'About', href: '/About', id: 4 },
   ];
@@ -23,7 +23,6 @@ const NavBar = () => {
     <nav className='bg-white shadow-sm'>
       <div className='container mx-auto px-4 py-3 md:py-4'>
         <div className='flex items-center justify-between'>
-          {/* Logo and Hamburger (mobile) */}
           <div className='flex items-center space-x-4'>
             <button 
               className='md:hidden text-gray-600 focus:outline-none'
