@@ -76,15 +76,16 @@ const Intro = () => {
         <div className='w-full md:w-1/2 order-2 md:order-1 space-y-6 pb-10'>
           <div className='space-y-4'>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-              <span className='inline-block mr-2'><Logo /></span> brings trendy, 
+              <span className='inline-block mr-2'><Logo /></span> sells products from, 
               <br className='hidden md:block' />
               <span className='bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text text-transparent'>
-                high-quality
-              </span> to your doorstep
+    trusted brands.
+              </span> delivered by us
+
             </h1>
 
             <p className="text-base md:text-lg text-gray-600 max-w-lg">
-              Worldwide shipping with premium service and exclusive affiliate benefits.
+                Shop directly, place orders, and enjoy fast delivery; all through our affiliate-powered platform.
             </p>
 
             <div className='flex flex-col sm:flex-row gap-3 pt-1'>

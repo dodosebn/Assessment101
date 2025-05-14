@@ -40,5 +40,17 @@ body {
 .mobile-nav-link {
   @apply block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200;
 }
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
+.animate-infinite-scroll {
+  animation: infinite-scroll 20s linear infinite;
+  display: inline-block;
+}
 }
