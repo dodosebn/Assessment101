@@ -1,2 +1,3 @@
 import  NavBar from "./navBar";
-export default {NavBar};
+import Intro from "./intro";
+export default {NavBar, Intro};
