@@ -8,10 +8,10 @@ import { FaRegUserCircle, FaBars, FaTimes } from "react-icons/fa";
 
 const prodNavLinks = [
   { id: 1, name: "All", path: "/products" },
-  { id: 2, name: "Clothing", path: "/clothing" },
-  { id: 3, name: "Products", path: "/products" },
-  { id: 4, name: "Food", path: "/food" },
-  { id: 5, name: "Travel", path: "/travel" },
+  { id: 2, name: "Clothing", path: "/products/cloth" },
+  { id: 3, name: "Products", path: "/products/product" },
+  { id: 4, name: "Food", path: "/products/food" },
+  { id: 5, name: "Travel", path: "products/travel" },
 ];
 
 const ProdNav = () => {
@@ -42,7 +42,7 @@ const ProdNav = () => {
 
           <div className="flex items-center space-x-4 md:space-x-6">
             <NavClicks name="Cart (0)" icon={IoCartOutline} />
-            <NavClicks name="LogOut" icon={FaRegUserCircle} />
+            <Link href='/'><NavClicks name="LogOut" icon={FaRegUserCircle} /></Link>
           </div>
         </div>
 

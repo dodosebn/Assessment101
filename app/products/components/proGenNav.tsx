@@ -11,22 +11,22 @@ const prodNavLinks = [
   {
     id: 2,
     name: "Clothing",
-    path: "/clothing",
+    path: "/products/cloth",
   },
   {
     id: 3,
     name: "Products",
-    path: "/products",
+    path: "/products/product",
   },
   {
     id: 4,
     name: "Food",
-    path: "/food",
+    path: "/products/food",
   },
   {
     id: 5,
     name: "Travel",
-    path: "/travel",
+    path: "/products/travel",
   },
 ];
 
