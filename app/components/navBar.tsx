@@ -57,14 +57,13 @@ const NavBar = () => {
             </div>
             <div className="flex items-center space-x-4 md:space-x-6">
               <NavClicks name="Cart (0)" icon={IoCartOutline} />
-              <NavClicks name="Sign In" icon={FaRegUserCircle} />
+          <TransitionLink href="/products"><NavClicks name="Sign In" icon={FaRegUserCircle} /></TransitionLink>    
             </div>
           </div>
         </div>
 
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-3">
-            {/* Mobile Search */}
             <div className="relative">
               <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
               <input
