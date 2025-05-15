@@ -1,17 +1,7 @@
 import React from 'react';
+import { AnimationItems } from './folderMaps';
 
-const AnimationItems = [
-    '🔥 Trendy',
-    '✨ Premium',
-    '💰 Affordable',
-    '👗 Stylish',
-    '🦄 Unique',
-    '🛡️ Quality',
-    '🏆 Best Selling',
-    '🔒 Exclusive'
-];
 
-// Duplicate the array to create seamless looping
 const duplicatedItems = [...AnimationItems, ...AnimationItems];
 
 const HorAnimation = () => {

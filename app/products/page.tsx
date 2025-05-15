@@ -1,5 +1,4 @@
 import React from 'react'
-import ProdNav from './components/prodNav';
 import MainPro from './components/mainPro';
 
 const page = () => {
