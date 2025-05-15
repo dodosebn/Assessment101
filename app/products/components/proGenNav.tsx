@@ -41,8 +41,8 @@ const ProdNav = () => {
               whileHover={{ scale: 1.05 }}
               className="relative"
             >
-              <TransitionLink href={item.path} legacyBehavior>
-                <a className="whitespace-nowrap px-1 py-2 text-sm font-medium text-gray-500 hover:text-cyan-600 transition-colors relative">
+              <TransitionLink href={item.path} >
+                <span className="whitespace-nowrap px-1 py-2 text-sm font-medium text-gray-500 hover:text-cyan-600 transition-colors relative">
                   {item.name}
                   <motion.span
                     className="absolute bottom-0 left-0 h-0.5 bg-cyan-600"
@@ -50,7 +50,7 @@ const ProdNav = () => {
                     initial="initial"
                     whileHover="hover"
                   />
-                </a>
+                </span >
               </TransitionLink>
             </motion.li>
           ))}

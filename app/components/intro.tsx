@@ -38,12 +38,12 @@ const Intro = () => {
                   <ul className="py-1">
                     {category.items.map((item, itemIndex) => (
                       <li key={itemIndex}>
-                        <a
-                          href="#"
+                        <span
                           className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-cyan-600 transition-colors"
                         >
+                          
                           {item}
-                        </a>
+                        </span>
                       </li>
                     ))}
                   </ul>
